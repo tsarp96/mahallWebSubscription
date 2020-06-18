@@ -11,5 +11,6 @@ namespace mahallWebv3.Models
         public string email { get; set; }
         public string il { get; set; }
         public string ilce { get; set; }
+        public string mahalle { get; set; }
     }
 }

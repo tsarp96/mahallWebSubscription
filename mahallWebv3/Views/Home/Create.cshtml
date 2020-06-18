@@ -14,10 +14,10 @@
         <form asp-action="Create">
             @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
             @*<div class="form-group">
-                <label asp-for="subscription_id" class="control-label"></label>
-                <input asp-for="subscription_id" class="form-control" />
-                <span asp-validation-for="subscription_id" class="text-danger"></span>
-            </div>*@
+            <label asp-for="subscription_id" class="control-label"></label>
+            <input asp-for="subscription_id" class="form-control" />
+            <span asp-validation-for="subscription_id" class="text-danger"></span>
+        </div>*@
             <div class="form-group">
                 <label asp-for="email" class="control-label">Email</label>
                 <input asp-for="email" class="form-control" />
@@ -32,6 +32,11 @@
                 <label asp-for="ilce" class="control-label">Bulunduğunuz İlçe</label>
                 <input asp-for="ilce" class="form-control" />
                 <span asp-validation-for="ilce" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="mahalle" class="control-label">Bulunduğunuz Mahalle</label>
+                <input asp-for="mahalle" class="form-control" />
+                <span asp-validation-for="mahalle" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Gönder" class="btn btn-primary" />
